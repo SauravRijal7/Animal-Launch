@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Animal Launch</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="c"></canvas>
+  <div id="hud">
+    <span id="dist">0 m</span>
+    <span id="coins">🪙 0</span>
+  </div>
+  <button id="boost">🚀 BOOST</button>
+
+  <div class="ov on" id="menu">
+    <h1>ANIMAL<br>LAUNCH</h1>
+    <p>How far can you send it?</p>
+    <button id="play">PLAY</button>
+  </div>
+
+  <div class="ov" id="select">
+    <div class="blk">
+      <h2>CHOOSE YOUR ANIMAL</h2>
+      <div id="cards"></div>
+      <div class="panel" id="upg"></div>
+      <button id="go">LAUNCH</button>
+    </div>
+  </div>
+
+  <div class="ov" id="result">
+    <div class="big" id="rd"></div>
+    <p id="rb"></p>
+    <p id="rn" style="color:#ffe35a"></p>
+    <div class="row">
+      <button id="again">TRY AGAIN</button>
+      <button class="alt" id="toSel">UPGRADES</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
